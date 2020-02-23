@@ -3,52 +3,37 @@
     Implemented by Abdus Sukkur.
     Facebook: facebook.com/abdussukkur85
 **/
-/**
-    Sort an array
-
-    input:
-        5
-        8 3 1 6 2
-
-    output:
-        1 2 3 6 8
-
-    Bubble sort working for the program this way:
-    ---------------------------------------------
-    3 8 1 6 2
-    1 8 3 6 2
-    1 8 3 6 2
-    1 8 3 6 2
-
-    1 3 8 6 2
-    1 3 8 6 2
-    1 2 8 6 3
-
-    1 2 6 8 3
-    1 2 3 8 6
-
-    1 2 3 6 8
-**/
-
 #include<stdio.h>
-int main(){
-    int arr[5] = {8, 3, 1, 6, 2};
-    int i,j,k,n,temp;
-    n = 5;
-    i = 0;
 
-    for(i=0; i<n-1; i++){
-        for(j=i+1; j<n; j++){
-            if(arr[i] > arr[j]){
-                temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+void bubble_sort(int A[], int n){
+    int i, j, temp;
+    for(i=0; i<n; i++){
+        for(j=0; j<n-i-1; j++){
+            if(A[j] > A[j+1]){
+                temp = A[j];
+                A[j] = A[j+1];
+                A[j+1] = temp;
             }
         }
     }
+}
 
-    for(k=0; k<n; k++){
-        printf("%d ",arr[k]);
+int main(){
+    int n, i;
+    printf("Enter Number of Elements: \n");
+    scanf("%d",&n);
+
+    int arr[n-1];
+
+    printf("Enter some unsorted number: \n");
+    for(i=0; i<n; i++){
+        scanf("%d",&arr[i]);
+    }
+
+    printf("Sorter Output is: ");
+    bubble_sort(arr,n);
+    for(i = 0; i < n; i++){
+        printf("%d ",arr[i]);
     }
 
     return 0;
