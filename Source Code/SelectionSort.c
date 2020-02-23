@@ -1,5 +1,5 @@
 /**
-    Selection Algorithm.
+    Selection Sort Algorithm.
     Implemented by Abdus Sukkur.
     Facebook: facebook.com/abdussukkur85
 **/
