@@ -1,4 +1,8 @@
-///Bubble Sort
+/**
+    Bubble Sort Algorithm.
+    Implemented by Abdus Sukkur.
+    Facebook: facebook.com/abdussukkur85
+**/
 /**
     Sort an array
 
