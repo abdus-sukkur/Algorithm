@@ -1,3 +1,9 @@
+/**
+    Binary Search Algorithm.
+    Implemented by Abdus Sukkur.
+    Facebook: facebook.com/abdussukkur85
+**/
+
 /// Binary Search
 /// 12 23 30 32 38 42 50 60 65 70 85 90 100
 /// mid = (int) (start + end)/2
