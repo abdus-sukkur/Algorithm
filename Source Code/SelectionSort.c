@@ -29,7 +29,7 @@ int main(){
     scanf("%d",&n);
     int arr[n-1];
 
-    printf("Enter a some unsorted number: \n");
+    printf("Enter some unsorted number: \n");
     for(i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
