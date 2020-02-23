@@ -7,5 +7,5 @@
 
 #### Sorting Algorithm
 
-* [Bubble Sort](https://github.com/abdus-sukkur/Algorithm/blob/master/Source%20Code/BubbleSort.c)
 * [Selection Sort](https://github.com/abdus-sukkur/Algorithm/blob/master/Source%20Code/SelectionSort.c)
+* [Bubble Sort](https://github.com/abdus-sukkur/Algorithm/blob/master/Source%20Code/BubbleSort.c)
