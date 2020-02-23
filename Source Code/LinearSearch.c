@@ -1,4 +1,8 @@
-///Search a number from an array using liner search
+/**
+    Linear Search Algorithm.
+    Implemented by Abdus Sukkur.
+    Facebook: facebook.com/abdussukkur85
+**/
 
 ///sample input:
 
