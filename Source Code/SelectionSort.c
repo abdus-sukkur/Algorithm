@@ -11,7 +11,7 @@ void selection_sort(int A[], int n){
     for(i = 0; i < n-1; i++){
         index_min = i;
         for(j = i+1; j < n; j++){
-            if(A[j] < A[index_min]){
+            if(A[j] < A[index_min]){git
                 index_min = j;
             }
         }
