@@ -9,3 +9,4 @@
 
 * [Selection Sort Algorithm](https://github.com/abdus-sukkur/Algorithm/blob/master/Source%20Code/SelectionSort.c)
 * [Bubble Sort Algorithm](https://github.com/abdus-sukkur/Algorithm/blob/master/Source%20Code/BubbleSort.c)
+* [Insertion Sort Algorithm](https://github.com/abdus-sukkur/Algorithm/blob/master/Source%20Code/InsertionSort.c)
